@@ -1,0 +1,84 @@
+/* App.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right,#ff6a88, #ffcc70);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: white;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  width: 350px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="checkbox"],
+button {
+  margin-bottom: 15px;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+
+
+.show-pass {
+  display: flex;
+  align-items: center;
+  font-size: 0.9rem;
+  color:#333;
+  margin:0.5 rem 0 1rem;
+  gap:0.4rem; 
+  
+}
+.show-pass input[type="checkbox"]{
+  margin:0;
+  vertical-align:middle;
+  accent-color:#fbea2d;
+}
+
+button {
+  background-color: #eba038;
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #eecb1d;
+}
+
+p {
+  text-align: center;
+  font-size: 14px;
+}
+
+.toggle {
+  color: #e28239;
+  cursor: pointer;
+  font-weight: bold;
+  margin-left: 5px;
+}
